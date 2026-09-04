@@ -366,6 +366,8 @@ Sammenlign originalen og WebP-versionen i browseren.
 
 Hvis kvaliteten ikke er tilfredsstillende, skal du eksportere billedet igen med en højere kvalitetsindstilling.
 
+**Jeg kan ikke se forskel i kvaliteten mellem webp-filerne og jpg-filerne. Der er heller ikke den store forskel i fil-størrelse for de fleste af dem, men webp er stadig mindre end jpg.**
+
 ---
 
 # Opgave 4 – Opdatér billedreferencer og brug lazy loading med omtanke
