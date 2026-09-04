@@ -218,6 +218,12 @@ Hvis du optimerer først, har du ingen baseline at sammenligne med. Du kan derfo
 
 Du får en tydelig før/efter-måling og kan se, hvilke ændringer der faktisk forbedrer performance.
 
+**Index performance score = 75**
+**News performance score = 75**
+**Games performance score = 75**
+**Contact performance score = 75**
+
+
 ---
 
 # Opgave 2 – Optimér billeder og konvertér til WebP
