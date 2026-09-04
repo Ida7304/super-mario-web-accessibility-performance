@@ -324,6 +324,9 @@ ImageMagick er et mere avanceret værktøj, som blandt andet kan konvertere, æn
 
 Det er **ikke et krav** at bruge ImageMagick i denne opgave.
 
+**Opdateret alle .jpg filer til .webp filer**
+
+
 ---
 
 # Opgave 3 – Kontrollér billedkvaliteten
