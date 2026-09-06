@@ -945,6 +945,9 @@ Kontrollér:
 - Er relevante `autocomplete`-værdier anvendt?
 - Er formularens submit-handling tydelig?
 
+**Tilføjet labels og buttons på HTML sidernes forms og inputs**
+
+
 ---
 
 # Opgave 9 – Kontrollér og optimér dokumentets `<head>`
