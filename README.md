@@ -1082,6 +1082,9 @@ En beskrivende `<title>` hjælper brugeren med hurtigt at forstå, hvilken side 
 
 Kontrollér og optimér `<title>` på alle fire HTML-sider.
 
+**Indsat lang, passende titler og utf-8 på alle html sider samt fjernet det ekstra link til fav-icon**
+
+
 ---
 
 # Opgave 10 – Test webtilgængelighed med WAVE og tastatur
