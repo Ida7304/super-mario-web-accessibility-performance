@@ -1148,6 +1148,8 @@ Brug WAVE til at lokalisere det konkrete element, og undersøg derefter HTML-kod
 
 Når du har rettet problemet, skal du køre WAVE igen.
 
+**Den skriver at der er missing form labels, dette skyldes at nogle inputs mangler id der matcher label, dette er fixet**
+
 ---
 
 ## 10.3 – Undersøg Contrast Errors
@@ -1163,6 +1165,8 @@ Hvis WAVE finder en kontrastfejl:
 5. Kør WAVE igen og kontrollér, om problemet er løst.
 
 Du skal ikke ændre farver tilfældigt. Brug værktøjets information til at finde den konkrete CSS-regel, der giver problemet.
+
+**Der var contrast errors ved banner titlen og copyright i footeren. Den hurtigste løsning var at ændre den hvide tekst til sort.**
 
 ---
 

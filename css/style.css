@@ -31,7 +31,7 @@ header h1{
 }
 .banner .welcome{
   background:#FEB614;
-  color: white;
+  color: black;
   padding: 30px;
   font-size: 60px;
   position: absolute;
@@ -183,7 +183,7 @@ input[type="submit"]:focus {
 }
 footer{
   background: #F63232;
-  color: white;
+  color: black;
   padding: 10px;
   text-align: center;
 }
