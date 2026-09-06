@@ -610,6 +610,14 @@ news.html
 games.html
 contact.html
 ```
+**Indsat "It's a me, Mario!" til h3 i stedet for h2, da det stadig er en heading men ikke lige så vigtig som de andre h2 på index.**
+
+**Rettet h2 til h3 på news.html, undtagen på "join today" og "mario club news". De andre overskrifter er ikke lige så vigtige, men er stadig overskrifter.**
+
+**Rettet h2 til h3 på games.html på "It's a me, Mario" da det stadig er en overskrift, men mindre vigtig end de andre.**
+
+**Beholdt h2 headings på contact.html da overskrifterne der virker til at have samme niveau af vigtighed.**
+
 
 ---
 
