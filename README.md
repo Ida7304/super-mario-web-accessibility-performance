@@ -661,6 +661,8 @@ Der må kun være én aktuel side i denne navigation ad gangen.
 
 > Brug native semantisk HTML først. Tilføj ARIA, når der er et konkret behov.
 
+**Indsat "aria-current = "page"" på alle HTML sider, på det tilsvarende link i navigationen.**
+
 ---
 
 # Opgave 8 – Gør formularerne tilgængelige
