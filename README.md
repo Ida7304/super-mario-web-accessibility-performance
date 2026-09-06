@@ -446,6 +446,8 @@ Thumbnail eller andet billede længere nede
 
 Browseren kan prioritere de vigtigste ressourcer først og udsætte billeder, som brugeren endnu ikke kan se.
 
+**Indsat "loding = "lazy"" på "thumb" billederne på alle html-siderne.**
+
 ---
 
 # Opgave 5 – Gennemgå billedernes alt-tekster
