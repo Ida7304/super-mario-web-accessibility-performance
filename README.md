@@ -1188,6 +1188,8 @@ og
 noget der kræver menneskelig vurdering
 ```
 
+**Den kommer kun med 1 alert om at "Join the club" linket i nav er et gentagent link da logoet også tager dig til forsiden. Jeg har dog valgt at beholde det, da det giver bedre mening at have det i nav også.**
+
 ---
 
 ## 10.5 – Test også med tastatur
