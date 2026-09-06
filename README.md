@@ -501,6 +501,8 @@ Eksemplet ovenfor er kun et eksempel. Du skal selv skrive en alt-tekst, der pass
 
 Du skal selv kunne forklare, hvorfor du har valgt den enkelte alt-tekst.
 
+**Fjernet "alt-tekst" til billederne på alle sider pånær games.html, som har fået nye opdaterede "alt-tekster". Dette skyldes at billederne på de andre sider er dekorative og ikke giver brugeren ny eller nødvendig information, men på games.html siden er det et galleri, hvor billederne er hovedindholdet og er derfor vigtige for brugeren at kunne tilgå**
+
 ---
 
 # Opgave 6 – Undersøg sidernes headingstruktur med HeadingsMap
