@@ -1274,19 +1274,36 @@ Du kan eksempelvis bruge denne tabel:
 
 | Side | Performance før | Performance efter | Accessibility efter |
 |---|---:|---:|---:|
-| `index.html` |  |  |  |
-| `news.html` |  |  |  |
-| `games.html` |  |  |  |
-| `contact.html` |  |  |  |
+| `index.html` |75|95|96|
+| `news.html` |75|95|96|
+| `games.html` |75|92|96|
+| `contact.html` |75|95|96|
 
 Skriv derefter kort:
 
 1. Hvilke ændringer gav den største performanceforbedring?
+
+**Ændringerne af billederne, labels og kontrast**
+
 2. Hvilke accessibility-problemer fandt du?
+
+**Lav kontrast mellem tekst og baggrund, plus manglende lang attribut**
+
 3. Hvilke problemer kunne Lighthouse finde?
+
+**Manglende lang attribut, lav kontrast, manglende labels**
+
 4. Hvilke problemer fandt WAVE?
+
+**Manglende id'er til input forms, lav kontrast og gentagne links**
+
 5. Hvilke problemer krævede HeadingsMap eller manuel kontrol?
+
+**At ændre hierakiet i h-tags, plus dybere test af kontrast og tastatur og fokus-test**
+
 6. Hvad har du lært om sammenhængen mellem performance og accessibility?
+
+**Accessibility er ret visuelt og hænger sammen med højtlæsning, hvor performances er mere med at sørge for at indhold loades hurtigt og effektivt og at filerne ikke er unødvendigt store.**
 
 ---
 
@@ -1294,39 +1311,39 @@ Skriv derefter kort:
 
 Inden du afslutter opgaven, skal du kontrollere:
 
-- [ ] Lighthouse er kørt før ændringerne.
-- [ ] Performance-resultaterne før optimering er dokumenteret.
-- [ ] Relevante billeder er konverteret til WebP.
-- [ ] HTML-filerne anvender de nye WebP-filer.
-- [ ] Billedkvaliteten er kontrolleret.
-- [ ] Relevante billeder længere nede på siden bruger `loading="lazy"`.
-- [ ] Vigtige billeder øverst på siden er ikke lazy-loadet uden grund.
-- [ ] Alt-teksterne er gennemgået.
-- [ ] Dekorative billeder er vurderet i forhold til `alt=""`.
-- [ ] Headingstrukturen er kontrolleret med HeadingsMap både før og efter ændringer.
-- [ ] Den aktuelle navigationsside anvender `aria-current="page"`.
-- [ ] Formularfelter har relevante labels.
-- [ ] `for` og `id` matcher.
-- [ ] `textarea` har et label.
-- [ ] `datalist`-input har et label.
-- [ ] Relevante `autocomplete`-værdier er anvendt.
-- [ ] Formularer har en tydelig submit-handling.
-- [ ] Eksisterende gyldige submit-kontroller er vurderet, før de eventuelt ændres.
-- [ ] Dokumentets tegnsæt er kontrolleret og er korrekt angivet med `<meta charset="utf-8">`.
-- [ ] `<head>` er organiseret i en logisk og læsbar rækkefølge.
-- [ ] Dokumentets primære sprog er angivet med `lang="en"` på `<html>`.
-- [ ] Alle fire sider har en unik og beskrivende `<title>`.
-- [ ] CSS er kontrolleret efter ændringer i HTML-strukturen.
-- [ ] Alle fire sider er testet med WAVE.
-- [ ] Relevante WAVE Errors er undersøgt og udbedret.
-- [ ] WAVE Contrast Errors er undersøgt og udbedret, hvor det var nødvendigt.
-- [ ] WAVE Alerts er undersøgt og vurderet.
-- [ ] Alle interaktive elementer har en tydelig synlig fokusmarkering.
-- [ ] Siderne er testet med tastatur.
-- [ ] HTML-koden er valideret.
-- [ ] Lighthouse er kørt igen efter optimering.
-- [ ] Performance-score er 90 eller højere.
-- [ ] Resultater før og efter er sammenlignet.
+- [X] Lighthouse er kørt før ændringerne.
+- [X] Performance-resultaterne før optimering er dokumenteret.
+- [X] Relevante billeder er konverteret til WebP.
+- [X] HTML-filerne anvender de nye WebP-filer.
+- [X] Billedkvaliteten er kontrolleret.
+- [X] Relevante billeder længere nede på siden bruger `loading="lazy"`.
+- [X] Vigtige billeder øverst på siden er ikke lazy-loadet uden grund.
+- [X] Alt-teksterne er gennemgået.
+- [X] Dekorative billeder er vurderet i forhold til `alt=""`.
+- [X] Headingstrukturen er kontrolleret med HeadingsMap både før og efter ændringer.
+- [X] Den aktuelle navigationsside anvender `aria-current="page"`.
+- [X] Formularfelter har relevante labels.
+- [X] `for` og `id` matcher.
+- [X] `textarea` har et label.
+- [X] `datalist`-input har et label.
+- [X] Relevante `autocomplete`-værdier er anvendt.
+- [X] Formularer har en tydelig submit-handling.
+- [X] Eksisterende gyldige submit-kontroller er vurderet, før de eventuelt ændres.
+- [X] Dokumentets tegnsæt er kontrolleret og er korrekt angivet med `<meta charset="utf-8">`.
+- [X] `<head>` er organiseret i en logisk og læsbar rækkefølge.
+- [X] Dokumentets primære sprog er angivet med `lang="en"` på `<html>`.
+- [X] Alle fire sider har en unik og beskrivende `<title>`.
+- [X] CSS er kontrolleret efter ændringer i HTML-strukturen.
+- [X] Alle fire sider er testet med WAVE.
+- [X] Relevante WAVE Errors er undersøgt og udbedret.
+- [X] WAVE Contrast Errors er undersøgt og udbedret, hvor det var nødvendigt.
+- [X] WAVE Alerts er undersøgt og vurderet.
+- [X] Alle interaktive elementer har en tydelig synlig fokusmarkering.
+- [X] Siderne er testet med tastatur.
+- [X] HTML-koden er valideret.
+- [X] Lighthouse er kørt igen efter optimering.
+- [X] Performance-score er 90 eller højere.
+- [X] Resultater før og efter er sammenlignet.
 
 ---
 
