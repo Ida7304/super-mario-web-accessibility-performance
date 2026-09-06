@@ -1230,6 +1230,8 @@ Din opgave er derfor at **teste fokusmarkeringen**, ikke blot at fjerne eller er
 
 Hvis fokus ikke er tydeligt nok, skal du forbedre CSS'en og teste igen.
 
+**Fokus er tydeligt på min og alle sider kan navigeres korrekt.**
+
 ---
 
 # Opgave 11 – Kør Lighthouse igen
